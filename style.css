@@ -22,6 +22,10 @@ main{
 }
 .container{
     display: flex;
+    padding: auto;
+}
+#mrzimovuglupost{
+    padding-right: 60px;
 }
 .container:not(:first-child){
     margin-top: 20px;
@@ -51,5 +55,19 @@ main{
     }
     main{
         width: 99%;
+    }
+}
+@media (max-width:1000px){
+    .monkey-business img{
+        width: 100%;
+      }
+      .col{
+        margin-left: 0px;
+    }
+    .email{
+        font-size: 15px;
+    }
+    #mrzimovuglupost{
+        padding-right: 0px;
     }
 }
