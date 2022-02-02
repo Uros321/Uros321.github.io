@@ -62,7 +62,7 @@ main{
         width: 100%;
       }
       .col{
-        margin-left: 0px;
+        margin: 15px 20% 0 20%;
     }
     .email{
         font-size: 15px;
@@ -70,4 +70,27 @@ main{
     #mrzimovuglupost{
         padding-right: 0px;
     }
+    .container{
+        flex-direction: column;
+    }
+}
+.containers{
+    display: flex;
+    padding: auto;
+}
+.containers table {
+    background-color: brown;
+    border: solid 1px;
+    width: 50%;
+    margin-top: 50px;
+}
+.containers tr{
+    background-color: brown;
+    border: solid 1px;
+    width: 50%;
+}
+.containers th{
+    background-color: brown;
+    border: solid 1px;
+    width: 50%;
 }
